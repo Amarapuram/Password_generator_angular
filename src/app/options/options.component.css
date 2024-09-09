@@ -1,0 +1,31 @@
+/* Options container */
+.options {
+    background-color: rgb(20, 19, 19);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    
+  }
+  .password-length-number{
+    font-size: 16px;
+    color: rgb(41, 231, 120);
+    margin-left: 8rem;
+    font-size: 3rem;
+  }
+  .options label {
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(41, 231, 120);
+    font-weight: 500;
+  }
+  
+  input[type="range"] {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  

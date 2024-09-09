@@ -1,0 +1,11 @@
+<div class="strength-indicator">
+    <!-- Strength boxes -->
+    <div class="strength-box" *ngFor="let box of boxes; let i = index" 
+         [ngClass]="{'filled-weak': i < boxCount && strength === 'WEAK', 
+                     'filled-medium': i < boxCount && strength === 'MEDIUM', 
+                     'filled-strong': i < boxCount && strength === 'STRONG'}"></div>
+  
+    <!-- Display the strength (WEAK, MEDIUM, STRONG) -->
+    <div class="strength-label">{{ strength }}</div>
+  </div>
+  

@@ -1,0 +1,19 @@
+<div class="options">
+  <label>
+    <input  class="option_class" type="checkbox" [(ngModel)]="includeUppercase" (change)="onOptionChange()"> Include Uppercase
+  </label>
+  <label>
+    <input class="option_class" type="checkbox" [(ngModel)]="includeLowercase" (change)="onOptionChange()"> Include Lowercase
+  </label>
+  <label>
+    <input class="option_class" type="checkbox" [(ngModel)]="includeNumbers" (change)="onOptionChange()"> Include Numbers
+  </label>
+  <label>
+    <input class="option_class" type="checkbox" [(ngModel)]="includeSymbols" (change)="onOptionChange()"> Include Symbols
+  </label>
+  <label>
+    Password Length: 
+    <input  type="range" min="1" max="20" [(ngModel)]="length" (change)="onOptionChange()">
+    <p class="password-length-number">{{ length }}</p>
+  </label>
+</div>

@@ -1,0 +1,13 @@
+<!-- app.component.html
+<app-password-display [password]="password"></app-password-display>
+<app-options (optionsChanged)="updateOptions($event)"></app-options>
+<app-strength-meter [strength]="strength"></app-strength-meter>
+<app-generate-button (generate)="generatePassword()"></app-generate-button> -->
+
+<div class="password-generator-container">
+    <app-password-display [password]="password"></app-password-display>
+    <app-strength-meter [strength]="strength"></app-strength-meter>
+    <app-options (optionsChanged)="updateOptions($event)"></app-options>
+    <app-generate-button (generate)="generatePassword()"></app-generate-button>
+  </div>
+  

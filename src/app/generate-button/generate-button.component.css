@@ -1,0 +1,19 @@
+/* Generate button styling */
+/* Center the button and style it */
+button {
+    display: block;
+    margin: 20px auto;  /* Center the button horizontally */
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
